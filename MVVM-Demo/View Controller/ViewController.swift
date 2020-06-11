@@ -24,11 +24,14 @@ class ViewController: UIViewController {
     
     // MARK: Button Action
     @IBAction func combineButtonAction(_ sender: Any) {
+        /// Passing the input data to ViewModel
+        /// View - ViewModel - Model
         let viewModel: FullName = FullName(
             firstName: self.firstNameTextField.text ?? "",
             lastName: self.lastNameTextField.text ?? ""
         )
         
+        /// Model - ViewModel - View
         self.viewNameLabel.text = "\(viewModel.firstName) \(viewModel.lastName)"
     }
     
