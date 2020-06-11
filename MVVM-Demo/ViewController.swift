@@ -10,11 +10,22 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    // MARK: IBOutlets
+    @IBOutlet weak var firstNameTextField: UITextField!
+    @IBOutlet weak var lastNameTextField: UITextField!
+    @IBOutlet weak var viewNameLabel: UILabel!
+    
+    // MARK: ViewDidLoad
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
     }
-
+    
+    // MARK: Button Action
+    @IBAction func combineButtonAction(_ sender: Any) {
+        
+    }
+    
 
 }
 
