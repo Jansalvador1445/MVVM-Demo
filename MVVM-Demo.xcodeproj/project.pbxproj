@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AED5DD4C2492A14000E54A19 /* FullName.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED5DD4B2492A14000E54A19 /* FullName.swift */; };
+		AED5DD4E2492A1DC00E54A19 /* FullNameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED5DD4D2492A1DC00E54A19 /* FullNameViewModel.swift */; };
 		AEFAA62E24929CD50098A563 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFAA62D24929CD50098A563 /* AppDelegate.swift */; };
 		AEFAA63024929CD50098A563 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFAA62F24929CD50098A563 /* SceneDelegate.swift */; };
 		AEFAA63224929CD50098A563 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFAA63124929CD50098A563 /* ViewController.swift */; };
@@ -29,6 +30,7 @@
 
 /* Begin PBXFileReference section */
 		AED5DD4B2492A14000E54A19 /* FullName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullName.swift; sourceTree = "<group>"; };
+		AED5DD4D2492A1DC00E54A19 /* FullNameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullNameViewModel.swift; sourceTree = "<group>"; };
 		AEFAA62A24929CD50098A563 /* MVVM-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVVM-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEFAA62D24929CD50098A563 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AEFAA62F24929CD50098A563 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 		AED5DD492492A11300E54A19 /* View Model */ = {
 			isa = PBXGroup;
 			children = (
+				AED5DD4D2492A1DC00E54A19 /* FullNameViewModel.swift */,
 			);
 			path = "View Model";
 			sourceTree = "<group>";
@@ -231,6 +234,7 @@
 				AED5DD4C2492A14000E54A19 /* FullName.swift in Sources */,
 				AEFAA62E24929CD50098A563 /* AppDelegate.swift in Sources */,
 				AEFAA63024929CD50098A563 /* SceneDelegate.swift in Sources */,
+				AED5DD4E2492A1DC00E54A19 /* FullNameViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

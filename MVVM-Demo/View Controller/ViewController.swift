@@ -19,11 +19,17 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        self.viewNameLabel.text = ""
     }
     
     // MARK: Button Action
     @IBAction func combineButtonAction(_ sender: Any) {
+        let viewModel: FullName = FullName(
+            firstName: self.firstNameTextField.text ?? "",
+            lastName: self.lastNameTextField.text ?? ""
+        )
         
+        self.viewNameLabel.text = "\(viewModel.firstName) \(viewModel.lastName)"
     }
     
 
